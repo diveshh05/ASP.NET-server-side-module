@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<countries>
+	<country>
+		<countryId>1</countryId>
+		<countryName>Mauritius</countryName>
+	</country>
+	<country>
+		<countryId>2</countryId>
+		<countryName>France</countryName>
+	</country>
+	<country>
+		<countryId>3</countryId>
+		<countryName>Spain</countryName>
+	</country>
+</countries>
