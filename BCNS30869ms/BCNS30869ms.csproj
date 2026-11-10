@@ -101,6 +101,10 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="App_Data\country.xml" />
+    <Content Include="App_Data\Database.mdf" />
+    <Content Include="App_Data\Database_log.ldf">
+      <DependentUpon>Database.mdf</DependentUpon>
+    </Content>
     <Content Include="contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -200,6 +204,14 @@
     <Content Include="Site.Master" />
     <Content Include="testimonials.aspx" />
     <Content Include="Tutorial\week3\register.aspx" />
+    <Content Include="Tutorial\week5\addressForm.ascx" />
+    <Content Include="Tutorial\week5\login.aspx" />
+    <Content Include="Tutorial\week5\logincrtl.ascx" />
+    <Content Include="Tutorial\week5\payment.aspx" />
+    <Content Include="Tutorial\week5\rndquotation.ascx" />
+    <Content Include="Tutorial\week5\showquotes.aspx" />
+    <Content Include="Tutorial\week5\uc\randomImage.ascx" />
+    <Content Include="Tutorial\week5\showrandomImage.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -275,6 +287,62 @@
     <Compile Include="Tutorial\week3\register.aspx.designer.cs">
       <DependentUpon>register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Tutorial\week5\addressForm.ascx.cs">
+      <DependentUpon>addressForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\week5\addressForm.ascx.designer.cs">
+      <DependentUpon>addressForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\week5\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\week5\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\week5\logincrtl.ascx.cs">
+      <DependentUpon>logincrtl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\week5\logincrtl.ascx.designer.cs">
+      <DependentUpon>logincrtl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\week5\payment.aspx.cs">
+      <DependentUpon>payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\week5\payment.aspx.designer.cs">
+      <DependentUpon>payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\week5\rndquotation.ascx.cs">
+      <DependentUpon>rndquotation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\week5\rndquotation.ascx.designer.cs">
+      <DependentUpon>rndquotation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\week5\showquotes.aspx.cs">
+      <DependentUpon>showquotes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\week5\showquotes.aspx.designer.cs">
+      <DependentUpon>showquotes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\week5\uc\randomImage.ascx.cs">
+      <DependentUpon>randomImage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\week5\uc\randomImage.ascx.designer.cs">
+      <DependentUpon>randomImage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\week5\showrandomImage.aspx.cs">
+      <DependentUpon>showrandomImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\week5\showrandomImage.aspx.designer.cs">
+      <DependentUpon>showrandomImage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -291,6 +359,9 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.7.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.7.0.min.map" />
+    <Content Include="Tutorial\week5\LoginformandModalwith_Usercontrol.pdf" />
+    <Content Include="Tutorial\week5\Tut5.pdf" />
+    <Content Include="Tutorial\week5\wk5.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
